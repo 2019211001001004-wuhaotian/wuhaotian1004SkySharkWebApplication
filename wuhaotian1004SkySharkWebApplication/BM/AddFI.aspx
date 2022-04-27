@@ -53,6 +53,10 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="3">
+                        <asp:Label ID="lblMessage" runat="server" Text="Label" Font-Bold="True" ForeColor="Red"></asp:Label></td>
+                </tr>
+                <tr>
                     <td>
                         <asp:Label ID="Label2" runat="server" Text="Flight Number"></asp:Label>
                     </td>
@@ -68,6 +72,7 @@
                         <asp:Label ID="Label3" runat="server" Text="Departure Time"></asp:Label>
                     </td>
                     <td class="auto-style1">
+                        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
                         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style1">
@@ -90,6 +95,7 @@
                         <asp:Label ID="Label5" runat="server" Text="Arrival Time"></asp:Label>
                     </td>
                     <td>
+                        <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
                         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
                     </td>
                     <td>
